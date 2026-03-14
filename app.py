@@ -158,7 +158,7 @@ def main():
             st.info("No face image selected")
     
     with col2:
-        st.markdown("### 🖼️ Target Image")
+        st.markdown("### 🖼️ Reference Photo")
         
         uploaded_target = st.file_uploader("Upload target image", type=['png', 'jpg', 'jpeg'], key="target_upload")
         
