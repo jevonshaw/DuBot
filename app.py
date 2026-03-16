@@ -9,7 +9,7 @@ import os
 import io
 
 # Page configuration
-st.set_page_config(page_title="Face Swap App", layout="wide")
+st.set_page_config(page_title="DuBot Hairstyle Try-on", layout="wide")
 
 # Custom CSS for better styling
 st.markdown("""
@@ -127,7 +127,7 @@ def perform_face_swap(face_image, target_image):
 
 def main():
     # Title
-    st.title("🔄 Face Swap Application")
+    st.title("🔄 DuBot - See yourself in braids, fades, and anything else!")
     st.markdown("Upload or capture your face photo and select a target image to swap faces!")
     
     # Create three columns
