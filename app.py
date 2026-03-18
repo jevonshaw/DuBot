@@ -128,7 +128,7 @@ def perform_face_swap(face_image, target_image):
 def main():
     # Title
     st.title("🔄 DuBot - See yourself in braids, fades, and anything else!")
-    st.markdown("Upload or capture your face photo and select a target image to swap faces!")
+    st.markdown("Upload or capture your face photo, then upload a reference image to see how you'd look with that style!")
     
     # Create three columns
     col1, col2, col3 = st.columns(3)
